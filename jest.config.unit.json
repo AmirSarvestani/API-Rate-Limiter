@@ -1,0 +1,13 @@
+{
+  "collectCoverage": true,
+  "coverageDirectory": "./coverage",
+  "displayName": "unit",
+  "preset": "ts-jest",
+  "testMatch": ["<rootDir>/src/**/*.test.ts"],
+  "testEnvironment": "node",
+  "globals": {
+    "ts-jest": {
+      "tsconfig": "./tsconfig.json"
+    }
+  }
+}
