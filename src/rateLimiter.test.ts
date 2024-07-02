@@ -2,7 +2,7 @@ import request from 'supertest';
 import express from 'express';
 import redisClient from './redisClient';
 import { slidingLogRateLimiter } from './rateLimiter';
-import { overrideRateLimit, setTemporaryRateLimit } from './overriderateLimit';
+import { overrideRateLimit, setTemporaryRateLimit } from './overrideRateLimit';
 import { authenticate } from './authenticate';
 
 const app = express();
