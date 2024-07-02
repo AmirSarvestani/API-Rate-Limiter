@@ -1,6 +1,6 @@
 import express, { Request, Response, NextFunction } from 'express';
 import { slidingLogRateLimiter } from './rateLimiter';
-import { overrideRateLimit } from './overriderateLimit';
+import { overrideRateLimit } from './overrideRateLimit';
 import { authenticate } from './authenticate';
 import { configs } from './configs';
 import { errorHandler } from './errorHandler';
